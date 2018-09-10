@@ -61,5 +61,9 @@ Por Data: /api/v1/agenda/?data=2018-09-10
 Por Sala: /api/v1/agenda/?sala=4
 [{"id":7,"sala":4,"data":"2018-09-10","hora_inicial":"16:00:00","hora_final":"17:00:00"},{"id":8,"sala":4,"data":"2018-09-10","hora_inicial":"18:00:00","hora_final":"19:00:00"}]
 
+Testes:
+
+python3 manage.py test controle_salas
+
                   
 
