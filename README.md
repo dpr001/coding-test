@@ -52,5 +52,14 @@ Edição de Agenda: PUT : /api/v1/salas/10
 }
 
 Exclusão de Agenda: DELETE: /api/v1/salas/10
+
+Filtros:
+
+Por Data: /api/v1/agenda/?data=2018-09-10
+[{"id":9,"sala":1,"data":"2018-09-11","hora_inicial":"08:00:00","hora_final":"10:00:00"}]
+
+Por Sala: /api/v1/agenda/?sala=4
+[{"id":7,"sala":4,"data":"2018-09-10","hora_inicial":"16:00:00","hora_final":"17:00:00"},{"id":8,"sala":4,"data":"2018-09-10","hora_inicial":"18:00:00","hora_final":"19:00:00"}]
+
                   
 
