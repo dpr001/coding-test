@@ -1,0 +1,21 @@
+[
+  {
+	"model": "controle_salas.sala",
+	"pk": 1,
+	"fields": {
+		"nome": "Sala Django",
+		"descricao": "Sala de Reunião Mezanino",
+		"quantidade_pessoas": 5
+	}
+  },
+  {
+    "model": "controle_salas.agenda",
+    "pk": 1,
+    "fields": {
+		"sala": 1,
+		"data": "2018-09-11",
+        "hora_inicial": "08:00:00",
+		"hora_final": "10:00:00"
+	}
+  }
+]
