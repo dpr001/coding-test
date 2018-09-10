@@ -32,9 +32,9 @@ Exclusão de Salas: DELETE: /api/v1/salas/5
 
 Agenda:
 
-Listagem de Salas: GET  : /api/v1/agenda/
+Listagem de Agenda: GET  : /api/v1/agenda/
 
-Cadastro de Salas: POST : /api/v1/agenda/  
+Cadastro de Agenda: POST : /api/v1/agenda/  
 {
 	"sala": 4,
 	"data": "2018-09-10",
@@ -42,7 +42,7 @@ Cadastro de Salas: POST : /api/v1/agenda/
 	"hora_final": "17:00:00"
 }
 
-Edição de Salas: PUT : /api/v1/salas/10
+Edição de Agenda: PUT : /api/v1/salas/10
 
 {
 	"sala": 4,
@@ -51,6 +51,6 @@ Edição de Salas: PUT : /api/v1/salas/10
 	"hora_final": "17:00:00"
 }
 
-Exclusão de Salas: DELETE: /api/v1/salas/10
+Exclusão de Agenda: DELETE: /api/v1/salas/10
                   
 
